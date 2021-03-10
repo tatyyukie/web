@@ -99,17 +99,16 @@ a{
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 150px;
+    padding: 100px;
 }
 
 .label-info{
-    width: 50%;
+    width: 45%;
     height: 450px;
 }
 
 .img-info{
-    width: 50%;
-    background: rgb(255, 0, 119);
+    width: 55%;
     height: 450px;
 }
 
@@ -131,10 +130,16 @@ a{
     color: black;
     background: white;
     padding: 14px;
-    width: 60%;
+    width: 65%;
     font-weight: 500;
 }
 
-.button {
+.button{
     margin-top: 60px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
 }
