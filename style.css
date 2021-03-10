@@ -33,7 +33,6 @@ html{
 }
   
 .info {
-    background: red;
     height: 93vh;
     width: 100%;
 }
@@ -93,4 +92,49 @@ a{
 .logo{
     font-size: 24px;
     font-weight: 500;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 150px;
+}
+
+.label-info{
+    width: 50%;
+    height: 450px;
+}
+
+.img-info{
+    width: 50%;
+    background: rgb(255, 0, 119);
+    height: 450px;
+}
+
+.label-info h1{
+    font-size: 52px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.label-info p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 60px;
+    line-height: 24px;
+}
+
+.button p{
+    color: black;
+    background: white;
+    padding: 14px;
+    width: 60%;
+    font-weight: 500;
+}
+
+.button {
+    margin-top: 60px;
 }
